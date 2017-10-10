@@ -20,7 +20,7 @@ const React = require('React');
 const createReactClass = require('create-react-class');
 const PropTypes = require('prop-types');
 const ReactNative = require('ReactNative');
-const StyleSheet = require('StyleSheet');
+const StyleSheet = require('StyleSheet');s
 const Text = require('Text');
 const TextInputState = require('TextInputState');
 /* $FlowFixMe(>=0.54.0 site=react_native_oss) This comment suppresses an error
@@ -437,7 +437,7 @@ const TextInput = createReactClass({
     placeholderTextColor: ColorPropType,
     /**
      * If `true`, the text input obscures the text entered so that sensitive text
-     * like passwords stay secure. The default value is `false`.
+     * like passwords stay secure. The default value is `false`. Does not work with 'multiline={true}'.
      */
     secureTextEntry: PropTypes.bool,
     /**
